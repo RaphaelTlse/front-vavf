@@ -1,4 +1,4 @@
-// in src/machines.js
+// in src/Machines.js
 import React from 'react';
 import { List, Datagrid, TextField } from 'react-admin';
 import MyUrlField from './MyUrlField';

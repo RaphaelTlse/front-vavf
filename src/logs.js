@@ -1,7 +1,7 @@
 // in src/logs.js
 import React from 'react';
 import { useMediaQuery } from '@material-ui/core';
-import { List, Datagrid, TextField, ReferenceField, EditButton, Edit, TextInput, ReferenceInput, SelectInput, Create, SimpleForm, Filter, SimpleList } from 'react-admin';
+import { List, Datagrid, TextField, EditButton, Edit, TextInput, SelectInput, Create, SimpleForm, Filter, SimpleList } from 'react-admin';
 import MyUrlField from './MyUrlField';
 
 const LogsFilter = (props) => (

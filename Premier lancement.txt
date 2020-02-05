@@ -1,0 +1,3 @@
+éxecuter "yarn add react-admin ra-data-json-server prop-types" à la racine
+Déplacer et remplacer le fichier Menu.js vers node_modules\ra-ui-materialui\esm\layout
+écecuter "yarn start"
