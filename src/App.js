@@ -1,8 +1,8 @@
 // in src/App.js
 import React from 'react';
 import { Admin, Resource } from 'react-admin';
-import { LogsList, LogsEdit, LogsCreate } from './Logs';
-import { MachinesList } from './Machines';
+import { LogsList, LogsEdit, LogsCreate } from './logs';
+import { MachinesList } from './machines';
 import { Map } from './Map';
 import { Stats } from './Stats';
 import { AdminPage } from './AdminPage';
