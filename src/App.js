@@ -19,8 +19,8 @@ import i18nProvider from './i18n/i18nProvider';
 
 const App = () => (
     <Admin dataProvider={dataProvider} authProvider={authProvider} i18nProvider={i18nProvider}>
-            <Resource name="Accueil" list={Home} icon={HomeIcon}/>
-            <Resource name="trains" list={MachinesList} icon={MachinesIcon}/>
+            <Resource name="home" list={Home} icon={HomeIcon}/>
+        <Resource name="trains" list={MachinesList} icon={MachinesIcon}/>
             <Resource name="Logs" list={LogsList} edit={LogsEdit} create={LogsCreate} icon={LogsIcon}/>
             <Resource name="Carte" list={Map} icon={MapIcon}/>
             <Resource name="Statistiques" list={Stats} icon={StatsIcon}/>

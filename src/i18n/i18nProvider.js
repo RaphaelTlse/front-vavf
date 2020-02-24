@@ -3,12 +3,34 @@ import defaultEnglishMessages from 'ra-language-english';
 import defaultFrenchMessages from 'ra-language-french';
 
 const englishMessages = {
-    train: 'Vehicle',
-    trains: 'Vehicles'
+    resources: {
+        home: {
+            name: 'Home |||| Home'
+        },
+        trains: {
+            name: 'Vehicle |||| Vehicles',
+            fields: {
+                uuid: 'ID',
+                createdAt: 'Creation date',
+                updatedAt: 'Last updated'
+            }
+        }
+    },
 };
 const frenchMessages = {
-    train: 'Machine',
-    trains: 'Machines'
+    resources: {
+        home: {
+            name: 'Accueil |||| Accueil'
+        },
+        trains: {
+            name: 'Machine |||| Machines',
+            fields: {
+                uuid: 'ID',
+                createdAt: 'Cr',
+                updatedAt: 'Mise jour'
+            }
+        }
+    },
 };
 
 const messages = {
