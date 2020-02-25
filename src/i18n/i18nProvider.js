@@ -14,9 +14,23 @@ const englishMessages = {
                 createdAt: 'Creation date',
                 updatedAt: 'Last updated'
             }
+        },
+        Logs: {
+            name: 'Logs |||| Logs',
+            fields: {}
+        },
+        Carte: {
+            name: 'Map |||| Map'
+        },
+        Statistiques: {
+            name: 'Statistic |||| Statistics'
+        },
+        'Page Admin': {
+            name: 'Admin panel |||| Admin panel'
         }
     },
 };
+
 const frenchMessages = {
     resources: {
         home: {
@@ -26,9 +40,22 @@ const frenchMessages = {
             name: 'Machine |||| Machines',
             fields: {
                 uuid: 'ID',
-                createdAt: 'Cr',
-                updatedAt: 'Mise jour'
+                createdAt: 'Créé le',
+                updatedAt: 'Dernière mise à jour'
             }
+        },
+        Logs: {
+            name: 'Historique |||| Historique',
+            fields: {}
+        },
+        Carte: {
+            name: 'Carte |||| Carte'
+        },
+        Statistiques: {
+            name: 'Statistique |||| Statistiques'
+        },
+        'Page Admin': {
+            name: 'Espace administrateur |||| Espace administrateur'
         }
     },
 };

@@ -2,7 +2,7 @@
 import React from 'react';
 import {Admin, Resource} from 'react-admin';
 import {LogsCreate, LogsEdit, LogsList} from './logs';
-import {MachinesList} from './machines';
+import {MachinesCreate, MachinesEdit, MachinesList} from './machines';
 import {Map} from './Map';
 import {Stats} from './Stats';
 import {AdminPage} from './AdminPage';
@@ -19,12 +19,13 @@ import i18nProvider from './i18n/i18nProvider';
 
 const App = () => (
     <Admin dataProvider={dataProvider} authProvider={authProvider} i18nProvider={i18nProvider}>
-            <Resource name="home" list={Home} icon={HomeIcon}/>
-        <Resource name="trains" list={MachinesList} icon={MachinesIcon}/>
-            <Resource name="Logs" list={LogsList} edit={LogsEdit} create={LogsCreate} icon={LogsIcon}/>
-            <Resource name="Carte" list={Map} icon={MapIcon}/>
-            <Resource name="Statistiques" list={Stats} icon={StatsIcon}/>
-            <Resource name="Page Admin" list={AdminPage} icon={AdminPageIcon}/>
+        <Resource name="home" list={Home} icon={HomeIcon}/>
+        <Resource name="trains" list={MachinesList} edit={MachinesEdit} create={MachinesCreate}
+                  icon={MachinesIcon}/>
+        <Resource name="Logs" list={LogsList} edit={LogsEdit} create={LogsCreate} icon={LogsIcon}/>
+        <Resource name="Carte" list={Map} icon={MapIcon}/>
+        <Resource name="Statistiques" list={Stats} icon={StatsIcon}/>
+        <Resource name="Page Admin" list={AdminPage} icon={AdminPageIcon}/>
     </Admin>
 );
 
